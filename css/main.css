@@ -1,0 +1,52 @@
+/**==========  BASE STYLES  ==========**/
+body {
+    background-color: #FEFEFE;
+    box-sizing: border-box;
+    line-height: 23px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding: 10%;
+}
+/**===========  GRID  ===============**/
+.full-width {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #000000;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+
+#wibbly {
+  height: 20em;
+  width: auto;
+  background-image: url('../images/wibbbly.gif');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#wibbly img {
+  height: 8em;
+  width: auto;
+}
